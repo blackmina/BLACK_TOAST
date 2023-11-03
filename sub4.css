@@ -1,0 +1,318 @@
+
+
+
+
+
+
+/* 블랙토스트 텍스트 가로띠배너 */
+
+.tb {
+  background: #000000;
+  width: 7000px;
+  height: 54px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.tb_in {
+  display: flex;
+  position: absolute;
+  width: 7000px;
+  animation: mar 25s linear infinite;
+}
+
+.tb h1 {
+  font-size: 30px;
+  color: #fff;
+  margin: 15px 5px;
+}
+
+@keyframes mar {
+  0% {
+    left: -1920px;
+  }
+
+  100% {
+    left: 0;
+  }
+}
+
+/* 텍스트 가로 띠배너 */
+
+
+
+
+
+
+
+
+/* 서브 텍스트박스  서브버튼*/
+.menu_box {
+    width: 1320px;
+    margin: 100px auto;
+    text-align: center;
+  }
+  
+  .h2_sub4 {
+    margin-bottom: 50px;
+    font-size: 35px;
+  
+    line-height: 40px;
+  }
+  
+
+  
+  
+  .menu_ul {
+    display: -ms-flexbox;
+    display: -moz-box;
+    display: -webkit-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  .menu_ul>li>a {
+  
+    display: block;
+    margin: 30px 50px;
+  }
+  
+  
+
+/* 서브버튼 */
+
+
+.sub_btn {
+    width: 1320px;
+    margin: auto;
+      display: flex;
+      justify-content: space-between;
+      
+      align-items: center;
+    
+    }
+    
+    
+    .btn_in {
+      
+      width: 300px;
+      font-size: 25px;
+      padding: 10px 20px;
+      background-color: white;
+      color: black;
+      border: 3px solid black;
+      border-radius: 30px;
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      font-family: sans-serif;
+      transition: all 0.4s;
+    }
+    
+    .btn_in:focus {
+      outline: none;
+    }
+    
+    .btn_in:hover {
+      background-color: black;
+      color: white;
+    }
+    
+    /* 서브버튼 */
+
+
+    
+
+/*요기부분은 꾸미기 부분입니다~*/
+img{border:0;}      
+
+
+/*notice*/
+h1{margin-top:100px;
+	text-align:center;}
+.notice{width:1100px;
+	margin: 150px auto;
+	background:#eeeeee;
+	margin-top:30px;}
+	
+/*제목부분*/
+.title{overflow:hidden;
+	padding:10px 10px;}
+.title_in{float:left;}
+.plus{float:right;
+	margin-right:10px;}
+.text_info{padding:10px;
+	background:rgb(0, 0, 0);
+  color: #fff;
+	display:none;
+}
+
+
+/*+모양 회전관련 속성. 요부분은 반드시 복사해서 가져가세요~*/
+.turn .title img{transform:rotate(45deg);}
+.plus img{transition:transform 0.5s;}
+
+
+
+
+/* 고객문의 */
+
+#form2{
+    width: 800px;
+    margin: 50px auto;
+	font-family: "SBAggro";
+    font-size: 12px;
+    line-height: 22px;
+    color: #000;
+}
+h1{
+    font-size: 30px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+h2{
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+h3{font-size: 18px;
+padding-bottom: 100px;
+text-align: center;
+line-height: 28px;
+
+}
+.accept{
+    border: 1px solid #ccc;
+    padding: 20px;
+    height: 100px;
+    overflow: auto;
+}
+dl{
+    padding-top: 20px;
+}
+dt{
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+.agree{
+    padding: 5px 0;
+    text-align: right;
+}
+/* 동의하기 인풋버튼 원래 모양 지우기 */
+.agree input{
+    display: none; 
+}
+/* 동의하기 간격 주기 */
+.agree label{
+    display: inline-block;
+    padding-left: 10px;
+}
+/* 동의하기 인풋버튼 배경이미지로 바꾸기 */
+.agree label em{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+    background: url(./B_image/sub4_icon.png) no-repeat -25px -25px;
+    vertical-align: bottom;
+}
+/* 동의하기 체크했을 때 인풋버튼 배경이미지 위치 바꾸기 */
+.agree input:checked +label em{
+    background-position: 0px -25px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    border-top: 1px solid #000;
+}
+th{
+    font-weight: normal;
+    text-align: left;
+}
+th, td{
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+}
+table input, table select{
+    padding: 10px;
+    border: 1px solid #ccc;
+    vertical-align: middle;
+    outline: none;/* 클릭했을 때 나타나는 테두리 속성 */
+}
+table select{
+    width: 86px;
+    height: 37px;
+    /* 셀렉트 태그 기본 화살표 없애기 */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    /* 셀렉트 태그 화살표 배경이미지로 넣기 */
+    background: url(./B_image/sub4_select.png) no-repeat 90% 50%;
+}
+table input::placeholder{
+    color: red;
+}
+table textarea{
+    border: 1px solid #ccc;
+    width: 600px;
+    height: 300px;
+}
+/* 체크박스 기본 모양 없애기 */
+table input[type="checkbox"]{
+    display: none;
+}
+/* 체크박스 간격 주기 */
+table input[type="checkbox"]+label{
+    margin-right: 15px;
+}
+/* 체크박스 모양 배경이미지로 넣기 */
+table input[type="checkbox"]+label em{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+    background: url(./B_image/sub4_icon.png) no-repeat -25px -50px;
+    vertical-align: bottom;
+}
+/* 체크박스 체크했을 때 모양 배경위치 바꾸기 */
+table input[type="checkbox"]:checked+label em{
+    background-position: 0 -50px;
+}
+
+.btn{
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.btn input[type="submit"]{
+    background-color: #beec17;
+    color: #000000;
+    padding: 10px 20px;
+    border: 0;
+    font-family: "SBAggro";
+}
+
+.btn input:hover[type="submit"]{
+  background-color: #d7f765;
+
+
+}
+
+.btn input[type="reset"]{
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: 0;
+    font-family: "SBAggro";
+}
+
+.btn input:hover[type="reset"]{
+  background-color: #424242;}
+
+
+    

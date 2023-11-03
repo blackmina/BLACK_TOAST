@@ -1,0 +1,255 @@
+/* 서브1_1 */
+
+
+
+/* 블랙토스트 텍스트 가로띠배너 */
+
+.tb {
+  background: #000000;
+  width: 7000px;
+  height: 54px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.tb_in {
+  display: flex;
+  position: absolute;
+  width: 7000px;
+  animation: mar 25s linear infinite;
+}
+
+.tb h1 {
+  font-size: 30px;
+  color: #fff;
+  margin: 15px 5px;
+}
+
+@keyframes mar {
+  0% {
+    left: -1920px;
+  }
+
+  100% {
+    left: 0;
+  }
+}
+
+/* 텍스트 가로 띠배너 */
+
+
+
+
+
+
+
+
+
+/* 프레쉬 텍스트 */
+.frash{width: 1320px;
+  height: 200px;
+margin: auto;
+position: relative;
+
+
+}
+
+.frash_img{
+margin: 100px 0;
+position: absolute;
+right: -500px;
+}
+
+
+
+
+
+/* 프레쉬 텍스트 */
+
+
+
+
+
+
+/* 서브  텍스트박스 */
+.over{overflow: hidden;}
+.menu_box_sub {
+  width: 1320px;
+  margin: 100px auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+
+}
+
+h2 {
+  margin-bottom: 70px;
+  font-size: 45px;
+  color: #000000;
+ 
+  line-height: 40px;
+
+}
+
+h3 {
+  font-size: 30px;
+}
+
+.span2 {
+  font-weight: bold;
+  position: relative;
+}
+
+h3 b {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 10px;
+  background-color: #beec17;
+  z-index: -1;
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: all 1s;
+}
+
+h3:hover b {
+  transform: scaleX(1);
+}
+
+
+.menu_ul_sub1 {
+
+  width: 1320px; 
+  margin: 100px auto;
+}
+
+.menu_ul_sub1>li>a {
+
+  display: block;
+  margin: 40px 0;
+}
+
+
+/* 서브1 슬라이드배너 */
+
+.mainbanner2{
+  width: 1392px;
+  height: 620px;
+  position: absolute;
+  right: -500px;
+border-radius: 500px 0 0 500px;
+}
+
+
+
+
+/* 서브 텍스트 스타일 */
+
+.sub1_text {
+  width: 1320px;
+  margin: auto;
+}
+
+.sub1_h1 {
+
+  font-size: 25px;
+  font-weight: bold;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 카드플립효과 이벤트박스 */
+/* 카드텍스트박스 */
+
+.event_box {
+  width: 100%;
+  height: 620px;
+  margin: auto;
+  background: url(./B_image/photo_bg.jpg) no-repeat center 0;
+  margin-bottom: 100px;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: lighter;
+  /* font-family: 'NanumSquareRound'; */
+  margin-bottom: 30px;
+}
+
+.sub1_box_in {
+  width: 1320px;
+  height: 620px;
+  margin: auto;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.p3 {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #e2e2e2;
+  border-radius: 20px;
+  box-shadow: 3px 6px 6px rgba(0, 0, 0, 0.2);
+}
+
+.p3 a:nth-child(1) img:nth-child(2) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+
+}
+
+.p3:hover a:nth-child(1) img:nth-child(1) {
+  opacity: 0;
+}
+
+.p3:hover a:nth-child(1) img:nth-child(2) {
+  opacity: 1;
+}
+
+.p4{
+  position: absolute;
+  bottom: -30px;
+  left: 167px;
+  transition: all 1s;
+}
+
+.p5{
+  position: absolute;
+  bottom: -30px;
+  left: 206px;
+  transition: all 1s;
+
+}
+
+/* .p3 a img{ width: 360px;
+height: inherit;} */
+
+.p4 img, .p5 img{width: 30px;}
+
+.p3:hover .p4, .p3:hover .p5{
+  bottom: 30px;
+}
+
+/* 카드플립 이벤트박스 */
+
+
+
+

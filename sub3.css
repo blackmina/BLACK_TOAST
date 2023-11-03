@@ -1,0 +1,124 @@
+
+/* 블랙토스트 텍스트 가로띠배너 */
+
+.tb {
+  background: #000000;
+  width: 7000px;
+  height: 54px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.tb_in {
+  display: flex;
+  position: absolute;
+  width: 7000px;
+  animation: mar 25s linear infinite;
+}
+
+.tb h1 {
+  font-size: 30px;
+  color: #fff;
+  margin: 15px 5px;
+}
+
+@keyframes mar {
+  0% {
+    left: -1920px;
+  }
+
+  100% {
+    left: 0;
+  }
+}
+
+/* 텍스트 가로 띠배너 */
+
+
+/* sub2_망원경박스 매장찾기 */
+
+.sub2_box1{
+  width: 1320px;
+  margin: 100px auto;
+  text-align: center;
+position: relative;
+
+}
+
+.sub2_img{position: absolute;
+  left: 200px;
+  top: -50px;
+}
+
+
+/* 망원경 텍스트박스 */
+
+.p_sub2_1{font-size: 55px;
+  line-height: 65px;
+font-weight: bold;
+}
+
+.p_sub2_2{font-size: 25px;
+  line-height: 35px;
+}
+
+
+/* 폼태그박스*/
+.sub2_box2{
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  margin: auto;
+
+
+  padding: 20px 0;
+}
+
+.sub2_box2_in{width: 467px;
+  margin: auto; 
+   display: flex;
+   justify-content: space-between;
+}
+
+/* 폼태그 */
+
+
+ select{
+  border: none;
+  border-bottom: 1px solid #000;
+  padding: 10px;
+
+  vertical-align: middle;
+  outline: none;/* 클릭했을 때 나타나는 테두리 속성 */
+
+  width: 150px;
+  height: 37px;
+  /* 셀렉트 태그 기본 화살표 없애기 */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  /* 셀렉트 태그 화살표 배경이미지로 넣기 */
+  background: url(./B_image/sub2_v1.png) no-repeat 90% 50%;
+}
+
+
+.select_v2{
+  width: 120px;
+  height: 37px;
+  /* 셀렉트 태그 기본 화살표 없애기 */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  /* 셀렉트 태그 화살표 배경이미지로 넣기 */
+  background: url(./B_image/sub2_v2.png) no-repeat 90% 50%;
+}
+
+/* 아이프레임지도 */
+
+iframe{
+  display: block;
+  width: 1320px;
+margin: auto;
+}

@@ -1,0 +1,159 @@
+
+
+/* 블랙토스트 텍스트 가로띠배너 */
+
+.tb {
+  background: #000000;
+  width: 7000px;
+  height: 54px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.tb_in {
+  display: flex;
+  position: absolute;
+  width: 7000px;
+  animation: mar 25s linear infinite;
+}
+
+.tb h1 {
+  font-size: 30px;
+  color: #fff;
+  margin: 15px 5px;
+}
+
+@keyframes mar {
+  0% {
+    left: -1920px;
+  }
+
+  100% {
+    left: 0;
+  }
+}
+
+/* 텍스트 가로 띠배너 */
+
+
+
+
+
+/* 샌드위치 텍스트박스 */
+.menu_box {
+  width: 1320px;
+  margin: 100px auto;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 50px;
+  font-size: 35px;
+
+  line-height: 40px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+.span2 {
+  font-weight: bold;
+  position: relative;
+}
+
+h3 b {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 10px;
+  background-color: #beec17;
+  z-index: -1;
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: all 1s;
+}
+
+h3:hover b {
+  transform: scaleX(1);
+}
+
+
+
+
+
+.menu_ul {
+  display: -ms-flexbox;
+  display: -moz-box;
+  display: -webkit-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.menu_ul>li>a {
+
+  display: block;
+  margin: 30px 50px;
+}
+
+
+/* 샌드위치 텍스트박스 */
+
+
+
+
+
+/* 서브2 */
+
+.sub3_box{
+  width: 1320px;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.sub3_textbox{
+
+  margin: 100px auto;
+  text-align: center;
+  
+}
+
+
+.sub3_p1{font-size: 55px;
+line-height: 65px;
+margin-bottom: 50px;
+margin-top: 100px;
+}
+
+.sub3_p2{font-size: 22px;
+line-height: 32px;
+margin-bottom: 150px;
+}
+
+
+
+
+.sub3_keywordbox{
+  margin: 100px auto;
+  text-align: center;
+  display: flex;
+  width: 1320px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.keyword_1{width: 300px;
+height: 300px;
+background-color: greenyellow;
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+border-radius: 200px;}
